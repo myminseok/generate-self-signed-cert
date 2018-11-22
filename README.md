@@ -37,3 +37,6 @@ press enter.
 now you have domain.crt, domain.key, rootca.crt
 
 
+
+## reference
+https://gist.github.com/patrickcrocker/a9256ecdb758ce85d01d
