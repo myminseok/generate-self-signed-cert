@@ -1,3 +1,5 @@
+# prepare linux or osx env
+
 # edit template-targetdomain-openssl.conf
 ```
 
