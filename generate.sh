@@ -12,3 +12,5 @@ openssl req -text -noout -verify -in domain.csr
 # for domain.crt
 openssl x509 -sha256 -req -days 3650 -extensions v3_user -in domain.csr -CA root.crt -CAcreateserial -CAkey root.key -out domain.crt -extfile openssl-domain.conf
 openssl x509 -text -in domain.crt
+
+cat  domain.crt root.crt> bundle.crt
