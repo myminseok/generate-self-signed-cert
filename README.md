@@ -28,7 +28,7 @@ DNS.3  = *.system.pcfdemo.net
 DNS.4  = *.login.system.pcfdemo.net
 DNS.5  = *.uaa.system.pcfdemo.net
 DNS.6  = pcfdemo.net
-
+IP.1 = 127.0.0.1
 
 ```
 
@@ -36,7 +36,7 @@ DNS.6  = pcfdemo.net
 press enter.
 
 
-now you have domain.crt, domain.key, rootca.crt
+now you have domain.crt, domain.key, root.crt
 
 
 
